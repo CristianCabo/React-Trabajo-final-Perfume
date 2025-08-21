@@ -12,3 +12,8 @@ li{
     margin: 15px;
     cursor: pointer;
 }
+.imgLogo{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}

@@ -7,7 +7,7 @@ function NavBar() {
   
       <>
       <header>
-      <img src="" alt="Imagen de la empresa" />
+      <img className="imgLogo" src= "./src/assets/logo.png" alt="Imagen de la empresa" />
       <nav>
         <ul>
             <li>Inicio</li>
@@ -18,6 +18,7 @@ function NavBar() {
       </nav>
       <CartWidget></CartWidget>
       </header>
+      
       </>
   )
 }

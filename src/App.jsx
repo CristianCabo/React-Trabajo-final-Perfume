@@ -1,7 +1,7 @@
 
 import './App.css'
 import NavBar from './Components/NavBar/NavBar'
-
+import ItemListContainer from "./Components/ItemListConteiner/ItemListContainer"
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
       <>
     
       <NavBar></NavBar>
-      
+      <ItemListContainer texto=" Esto es un emoprendimiento personal ! - Comming Soon"></ItemListContainer>
       </>
   )
 }
