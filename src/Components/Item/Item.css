@@ -1,0 +1,27 @@
+
+.imgItem{
+    height: 200px;
+    width: 200px;
+}
+.cardProducto{
+    background-color: #ddd4c0;
+    border-radius: 10px;
+    width: 20rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+
+
+}
+
+.buttonItem{
+    background-color: bisque;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

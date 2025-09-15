@@ -1,0 +1,12 @@
+.DetailContainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.imgDetail{
+    height: 500px;
+    width: 500px;
+    box-shadow: 3px black;
+}
