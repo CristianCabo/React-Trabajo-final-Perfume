@@ -1,0 +1,46 @@
+.totalContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vaciarCarrito{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: bisque;
+    border-radius: 5px;
+    margin: 40px 0;
+
+}
+.buttonFinalizarCompra{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.cantidadTotal{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.defaultContainer{
+   
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.comprarTitle{
+    margin-bottom: 40px;
+
+}
+.verProductos{
+   
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    padding: 5px;
+    background-color: bisque;
+    align-items: center;
+    border-radius: 5px;
+}

@@ -1,0 +1,37 @@
+.buttonContainer{
+    display: flex;
+    
+    margin-top: 40px;
+    align-items: center;
+}
+.buttonSum{
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+}
+.Count{
+    font-size: 25px;
+    
+    
+    
+}
+
+.buttonRes{
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.buttonAgregar{
+    height: 40px;
+    width: 150px;
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+}

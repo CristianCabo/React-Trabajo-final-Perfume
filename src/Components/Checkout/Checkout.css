@@ -1,0 +1,39 @@
+.checkoutContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+   
+    background-color: bisque;
+    width: 600px;
+    height: 400px;
+    margin-top: 15px;
+    justify-content: center;
+    margin-left: 30%;
+    border-radius: 10px;
+}
+.checkoutTitle{
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.labelContainer{
+    margin: 5px 0;
+}
+.buttonConfirmacionCompra{
+    align-items: center;
+
+   
+
+}
+.confirmacionCompra{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    padding-bottom: 20px;
+
+}

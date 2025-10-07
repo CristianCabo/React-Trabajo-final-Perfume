@@ -1,12 +1,53 @@
 .DetailContainer{
-    display: flex;
+    display: grid;
     align-items: center;
-    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr ;
     justify-content: space-around;
+
 
 }
 .imgDetail{
     height: 500px;
     width: 500px;
-    box-shadow: 3px black;
+    filter: drop-shadow(1px 2px 35px black);
+}
+.titleDetail{
+    font-size: 56px;
+    font-family: fantasy;
+    margin-bottom: 20px;
+}
+.diseñadorDetail{
+    color: gray;
+    font-size: 24px;
+    
+}
+.descriptionDetail{ 
+    text-align: justify;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.sectionContainer{
+    margin: 50px;
+    padding: 20px;
+}
+.contadorContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.finalizarCompra{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    background-color: bisque;
+    width: 140px;
+    height: 40px;
+    
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 20px;
 }

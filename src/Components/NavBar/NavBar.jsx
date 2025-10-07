@@ -8,15 +8,15 @@ function NavBar() {
   
       <>
       <header>
-        <Link to="/">
-        <img className="imgLogo" src= "./src/assets/logo.png" alt="Imagen de la empresa" />
+        <Link to="/" className="Link">
+        <img className="imgLogo" src= "../public/LogoSinFondo.png" alt="Imagen de la empresa" />
         </Link>
       
       <nav>
         <ul>
-            <li><NavLink to="/">Inicio</NavLink></li>
-            <li><Link to="/categoria/perfumesmujer">Perfumes Mujer</Link></li>
-            <li><Link to="/categoria/perfumeshombre">Perfumes Hombres</Link></li>
+            <li ><NavLink className="link" to="/">Inicio</NavLink></li>
+            <li ><Link className="link" to="/categoria/perfumesmujer" >Perfumes Mujer</Link></li>
+            <li ><Link className="link" to="/categoria/perfumeshombre" >Perfumes Hombres</Link></li>
         </ul>
       </nav>
       <CartWidget></CartWidget>

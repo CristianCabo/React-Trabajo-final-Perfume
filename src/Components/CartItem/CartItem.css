@@ -1,0 +1,26 @@
+.CartItemContainer{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.buttonEliminar{
+    height: 40px;
+    width: 120px;
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+
+.CartItemTitle{
+font-size: 30px;
+}
+.CartItemPrecio{
+    font-weight: bold;
+
+}
