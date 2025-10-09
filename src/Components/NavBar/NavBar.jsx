@@ -9,7 +9,7 @@ function NavBar() {
       <>
       <header>
         <Link to="/" className="Link">
-        <img className="imgLogo" src= "../public/LogoSinFondo.png" alt="Imagen de la empresa" />
+        <img className="imgLogo" src= "/logo-sin-fondo.png" alt="Imagen de la empresa" />
         </Link>
       
       <nav>

@@ -9,7 +9,7 @@ Permite visualizar un catálogo de productos, acceder al detalle de cada perfume
 
 1. **Cloná el repositorio**
 
-```bash
+## bash
 git clone https://github.com/CristianCabo/React-Trabajo-final-Perfumes.git
 cd React-Trabajo-final-Perfumes
 npm install
@@ -55,7 +55,7 @@ src/
  └─ index.css            → Estilos globales
 
 
-##🧩 Descripción de los componentes principales
+## 🧩 Descripción de los componentes principales
 Componente / Archivo	Función / Descripción
 App.jsx	---> Define las rutas principales del proyecto (/, /detalle/:id, /cart). Contiene la estructura base.
 main.jsx --->	Punto de entrada: renderiza la app, envuelve con BrowserRouter y el contexto global.
@@ -70,7 +70,7 @@ api.js --->	Simula la obtención de perfumes (mock de datos o fetch).
 Footer.jsx	Pie de página con información adicional o créditos.
 
 
-##⚙️ Funcionalidades principales
+## ⚙️ Funcionalidades principales
 
 - Listado de productos con renderizado dinámico.
 
@@ -87,7 +87,7 @@ Footer.jsx	Pie de página con información adicional o créditos.
 - Interfaz responsive y adaptable.
 
 
-##🧠 Flujo de la aplicación
+## 🧠 Flujo de la aplicación
 
 - El usuario ingresa a la Home y visualiza el listado de perfumes.
 
@@ -99,7 +99,7 @@ Footer.jsx	Pie de página con información adicional o créditos.
 
 - Se calcula el total dinámicamente.
 
-##🧪 Tecnologías utilizadas
+## 🧪 Tecnologías utilizadas
 
 - ⚛️ React — Framework principal
 
@@ -113,5 +113,12 @@ Footer.jsx	Pie de página con información adicional o créditos.
 
 - 📦 Node.js + npm — Dependencias y scripts
 
-##Dominio
--
+## Dominio
+-https://perfumes-porciuj.netlify.app/
+
+
+## 🧑‍💻 Autor
+
+- Cristián Cabo
+- Desarrollador Frontend
+- 📍 Proyecto final de React – Aplicación E-commerce de Perfumes
