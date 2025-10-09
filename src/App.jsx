@@ -9,6 +9,7 @@ import Cart from "./Components/Cart/Cart"
 import Checkout from "./Components/Checkout/Checkout"
 import  'bootstrap/dist/css/bootstrap.min.css'
 import { ToastContainer } from 'react-toastify'
+import Footer from './Components/Footer/Footer'
 
 
 function App() {
@@ -26,9 +27,12 @@ function App() {
             <Route path='/cart' element={<Cart/>}></Route>
             <Route path='/checkout' element={<Checkout/>}></Route>
           </Routes>
+          <Footer/>
         </CarritoProvider>
         <ToastContainer/>
+         
       </BrowserRouter>
+      
       </>
   )
 }
