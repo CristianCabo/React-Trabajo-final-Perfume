@@ -5,6 +5,7 @@ import "../ItemDetail/ItemDetail.css"
 
 import { CarritoContext } from "../../Context/CarritoContext"
 import { useContext } from "react"
+import { toast } from "react-toastify"
 
 
 
@@ -25,6 +26,7 @@ const ItemDetail = ({id, nombre,precio,diseñador, description, img, stock, })=>
         //Creamos un Objeto con item y cantidad
         const item = {id, nombre, precio}
         agregarAlCarrito(item, cantidad);
+        toast.success("Su Compra fue Enviada al Carrito ! Muchas Gracias"), {autoClose: 1000, theme:"dark", position: "top-right"}
     }
 
 

@@ -4,6 +4,7 @@ import { db } from "../../Services/config"
 import { collection, getDocs, where, query } from "firebase/firestore"
 import "./ItemListContainer.css"
 import { useParams } from "react-router-dom"
+import Loader from "../Loader/Loader"
 
 
 const ItemListContainer =()=>{
@@ -37,9 +38,8 @@ const ItemListContainer =()=>{
     return(
         <>
         <h2 className="titleItemListContainer">Mis Productos</h2>
-        <div className="container">
-            <ItemList productos={productos} />
-        </div>
+        {loading ? <Loader></Loader> : <ItemList className="container" productos={productos}/>}
+        
         
         
         
